@@ -1,4 +1,4 @@
-package me.Pizza.PizzaCore.api;
+package me.Pizza.PizzaCore.api.event;
 
 import lombok.Getter;
 

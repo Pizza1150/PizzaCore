@@ -1,7 +1,7 @@
 package me.Pizza.PizzaCore.listeners;
 
 import me.Pizza.PizzaCore.PizzaCore;
-import me.Pizza.PizzaCore.api.OpenAdvancementEvent;
+import me.Pizza.PizzaCore.api.event.OpenAdvancementEvent;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
