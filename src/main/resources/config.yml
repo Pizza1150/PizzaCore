@@ -1,0 +1,2 @@
+# Run command when player press L button
+command-on-advancement-open: "broadcast %player% pressed L"
