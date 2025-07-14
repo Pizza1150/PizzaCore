@@ -1,3 +1,6 @@
-/Users/pizzaformcgmail.com/IdeaProjects/PizzaCore/src/main/java/me/Pizza/PizzaCore.java
-/Users/pizzaformcgmail.com/IdeaProjects/PizzaCore/src/main/java/me/Pizza/api/OpenAdvancementEvent.java
-/Users/pizzaformcgmail.com/IdeaProjects/PizzaCore/src/main/java/me/Pizza/listeners/PacketListener.java
+/Users/pizzaformcgmail.com/IdeaProjects/PizzaCore/src/main/java/me/Pizza/PizzaCore/PizzaCore.java
+/Users/pizzaformcgmail.com/IdeaProjects/PizzaCore/src/main/java/me/Pizza/PizzaCore/api/event/OpenAdvancementEvent.java
+/Users/pizzaformcgmail.com/IdeaProjects/PizzaCore/src/main/java/me/Pizza/PizzaCore/command/ReloadCommand.java
+/Users/pizzaformcgmail.com/IdeaProjects/PizzaCore/src/main/java/me/Pizza/PizzaCore/listeners/PacketListener.java
+/Users/pizzaformcgmail.com/IdeaProjects/PizzaCore/src/main/java/me/Pizza/PizzaCore/listeners/PlayerListener.java
+/Users/pizzaformcgmail.com/IdeaProjects/PizzaCore/src/main/java/me/Pizza/PizzaCore/manager/ConfigManager.java

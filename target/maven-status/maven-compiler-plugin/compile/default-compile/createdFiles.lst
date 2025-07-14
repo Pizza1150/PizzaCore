@@ -1,3 +1,6 @@
-me/Pizza/PizzaCore.class
-me/Pizza/listeners/PacketListener.class
-me/Pizza/api/OpenAdvancementEvent.class
+me/Pizza/PizzaCore/PizzaCore.class
+me/Pizza/PizzaCore/api/event/OpenAdvancementEvent.class
+me/Pizza/PizzaCore/command/ReloadCommand.class
+me/Pizza/PizzaCore/listeners/PacketListener.class
+me/Pizza/PizzaCore/listeners/PlayerListener.class
+me/Pizza/PizzaCore/manager/ConfigManager.class

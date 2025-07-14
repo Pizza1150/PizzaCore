@@ -24,6 +24,8 @@ public class PacketListener implements com.github.retrooper.packetevents.event.P
 
             if (wrapper.getAction() == WrapperPlayClientAdvancementTab.Action.OPENED_TAB) {
                 Bukkit.getScheduler().runTask(plugin, () -> {
+                    if (!plugin.getConfigManager().enableOpenAdvancement) return;
+
                     final Player player = Bukkit.getPlayer(ev.getUser().getUUID());
                     if (player == null) return;
 
@@ -31,7 +33,7 @@ public class PacketListener implements com.github.retrooper.packetevents.event.P
                     Bukkit.getPluginManager().callEvent(event);
                     if (event.isCancelled()) return;
 
-                    final String command = plugin.getConfig().getString("command-on-advancement-open");
+                    final String command = plugin.getConfigManager().commandOnOpenAdvancement;
                     if (command != null && !command.isEmpty()) {
                         final String parsed = command.replace("%player%", player.getName());
                         Bukkit.dispatchCommand(Bukkit.getConsoleSender(), parsed);
