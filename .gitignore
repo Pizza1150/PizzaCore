@@ -1,6 +1,9 @@
 # Maven
 /target/
 
+# Vscode
+.vscode/
+
 # InteliJ IDEA
 .idea/
 *.iml
