@@ -2,7 +2,5 @@ name: PizzaCore
 version: '1.0-SNAPSHOT'
 main: me.Pizza.PizzaCore.PizzaCore
 api-version: '1.21'
-command:
-  pcr:
-depend:
-  - packetevents
+commands:
+  pizzacore:
