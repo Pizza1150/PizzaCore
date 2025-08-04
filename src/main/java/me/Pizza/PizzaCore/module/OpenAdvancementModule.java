@@ -49,7 +49,8 @@ public class OpenAdvancementModule implements Module {
             if (ev.getPacketType() == PacketType.Play.Client.ADVANCEMENT_TAB) {
                 WrapperPlayClientAdvancementTab wrapper = new WrapperPlayClientAdvancementTab(ev);
 
-                if (wrapper.getAction() == WrapperPlayClientAdvancementTab.Action.CLOSED_SCREEN) {
+                if (wrapper.getAction() == WrapperPlayClientAdvancementTab.Action.OPENED_TAB) {
+                    // Back to main thread
                     Bukkit.getScheduler().runTask(plugin, () -> {
                         Player player = Bukkit.getPlayer(ev.getUser().getUUID());
                         if (player == null) return;
