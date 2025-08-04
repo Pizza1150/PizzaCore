@@ -1,7 +1,0 @@
-me/Pizza/PizzaCore/module/OpenAdvancementModule.class
-me/Pizza/PizzaCore/PizzaCore.class
-me/Pizza/PizzaCore/module/OpenAdvancementModule$OpenAdvancementListener.class
-me/Pizza/PizzaCore/api/event/OpenAdvancementEvent.class
-me/Pizza/PizzaCore/module/Module.class
-me/Pizza/PizzaCore/command/ReloadCommand.class
-me/Pizza/PizzaCore/listeners/PlayerListener.class
