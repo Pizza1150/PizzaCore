@@ -38,7 +38,7 @@ public class OpenAdvancementModule implements Module {
 
     @Override
     public void unload() {
-        listeners.forEach(listener -> PacketEvents.getAPI().getEventManager().unregisterListener(listener));
+        if ((Bukkit.getPluginManager().isPluginEnabled("PacketEvents"))) listeners.forEach(listener -> PacketEvents.getAPI().getEventManager().unregisterListener(listener));
         listeners.clear();
     }
 
